@@ -50,12 +50,6 @@ module.exports = function(config) {
       'karma-phantomjs-launcher'
     ],
 
-
-    babelPreprocessor: {
-      options: {
-        presets: ['airbnb']
-      }
-    },
     reporters: ['progress'],
     port: 9876,
     colors: true,
